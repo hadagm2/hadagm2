@@ -1,2 +1,2 @@
 - 👋 Hi, I’m @hadagm2
-- 🌱 I’m currently learning cpp, python
+- 🌱 I’m currently learning python, webdev
