@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            function changePage(t){
+                document.title = t;
+                frame.src = t + ".html"
+            }   
+        </script>
+    </head>
+    <body>
+        <!--Navbar-->
+        <div class="navbar">
+            <a onclick="changePage('Home')" id="home">Home</a>
+            <a onclick="changePage('Bio')" id="etc">Bio</a>
+            <a onclick="changePage('Projects') "id="etc">Projects</a>
+            <a onclick="changePage('Blog')" id="etc">Blog</a>
+            <a onclick="changePage('Contact')" id="etc">Contact</a>
+        </div>
+        <!--Content-->
+        <div class="main-content">
+            <iframe id="frame" src="home.html" frameborder="0"></iframe>
+        </div>
+        <!--Bottom of the page-->
+        <div class="lowbar">
+            <div>© Copyright © 2024 All right reserved.</div>
+        </div>
+    </body>
+</html>
