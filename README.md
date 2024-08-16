@@ -1,2 +1,3 @@
 - 👋 Hi, I’m @hadagm2
 - 🌱 I’m currently learning python, webdev
+- I would happily take any programming job regardless of pay to learn
